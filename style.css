@@ -16,17 +16,17 @@ html{
     background-color: #FFFFFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 100px;
-    gap: 450px;
-    width: 100vw;
+    line-height: 100px;
+    width: 100%;
 }
 
 .logo{
     width: 86.041px;
     height: 40px;
     padding: 20px;
+    margin-left: 150px;
 }
 
 .left_side-01{
@@ -47,6 +47,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 150px;
 }
 
 .link_01{
@@ -65,13 +66,8 @@ html{
     margin-right: 10px;
 }
 
-/* resposive for mobile */
-
-@media screen and (max-width:425px) {
-        .bg-color{
-            width: 100%;
-            flex-direction: column;
-        }
+.pera_02{
+    margin-left: 10px;
 }
 
 /* header ends here */
@@ -79,21 +75,73 @@ html{
 
 
 
+
+
+
+
+
 /* banner starts here */
 
 .banner_container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   line-height: -2vh;
 }
-left_side-02{
 
+.right_side-02{
+    margin-right: 50px;
+    
+   
 }
+ .img_02{
+    width: 85%;
+
+  }
+
+.bg-image_01{
+    background-image: url("images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.bg-image_01 .left_side-02{
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+
 
 .heading_01{
 color: #0B0223;
-text-align: center;
-font-size: 48px;
+font-size: 45px;
 font-weight: 600;
 text-transform: uppercase;
 }
+
+.pera_01{
+font-size: 95px;
+font-weight: 800;
+text-transform: uppercase;
+color:#F948B2;
+}
+
+.btn_03{
+    padding: 11px 20px;
+    border-radius: 24px;
+    background-color: #FF42A5;
+    color: white;
+    border: none;
+}
+
+.btn_04{
+    background-color: #4EC5F7;
+    padding: 11px 25px;
+    border-radius: 24px;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+
 /* banner ends here */
