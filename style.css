@@ -1,0 +1,99 @@
+html{
+
+    font-family: 'Work Sans', sans-serif;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* header starts here */
+
+
+.bg-color{
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    gap: 450px;
+    width: 100vw;
+}
+
+.logo{
+    width: 86.041px;
+    height: 40px;
+    padding: 20px;
+}
+
+.left_side-01{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -20px;
+}
+
+.left_side-01 p{
+    font-size: 45px;
+}
+
+.btn{
+    width: 262px;
+    height: 56px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link_01{
+    text-decoration: none;
+    margin: -100px;
+    
+}
+
+.nav_01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link_div{
+    margin-right: 10px;
+}
+
+/* resposive for mobile */
+
+@media screen and (max-width:425px) {
+        .bg-color{
+            width: 100%;
+            flex-direction: column;
+        }
+}
+
+/* header ends here */
+
+
+
+
+/* banner starts here */
+
+.banner_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+left_side-02{
+
+}
+
+.heading_01{
+color: #0B0223;
+text-align: center;
+font-size: 48px;
+font-weight: 600;
+text-transform: uppercase;
+}
+/* banner ends here */
