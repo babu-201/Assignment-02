@@ -17,3 +17,11 @@
             align-items: center;
                 
 }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .nav-items-container a{
+               padding: 20px;
+    }
+
+}
