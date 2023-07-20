@@ -47,6 +47,24 @@
     text-align: center;
  }
 
+ .banner-02{
+   
+  flex-direction: column;
+    
+}
+
+.left_div-02{
+    width: 100%;
+}
+
+.right_div-02{
+    width: 100%;
+}
+
+.banner_bg{
+    text-align: center;
+}
+
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
