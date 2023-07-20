@@ -17,11 +17,45 @@
             align-items: center;
                 
 }
+
+.banner_container{
+  
+    flex-direction: column-reverse;
+    margin-top: 40px;
+}
+.left_div{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.right_div{
+    width: 100%;
+}
+
+
+
+.card_container{
+    flex-direction: column;
+}
+
+.card_title .card .img_03{
+    width: 100%;
+ }
+
+ .heading_03{
+    text-align: center;
+ }
+
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .nav-items-container a{
                padding: 20px;
+    }
+
+    .banner_container{
+        margin-top: 40px;
     }
 
 }

@@ -69,5 +69,90 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
 /* banner section starts here */
 
+.banner_container{
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.left_div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+     gap: 20px;
+}
+.right_div{
+    width: 50%;
+}
+
+.right_div .img_02{
+    width: 100%;
+}
+.heading_01{
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+    
+    .pera_01{
+    font-size: 95px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color:#F948B2;
+    }
+    
+    .btn_03{
+        padding: 11px 20px;
+        border-radius: 24px;
+        background-color: #FF42A5;
+        color: white;
+        border: none;
+    }
+    
+    .btn_04{
+        background-color: #4EC5F7;
+        padding: 11px 25px;
+        border-radius: 24px;
+        color: white;
+        border: none;
+        margin-left: 10px;
+    }
+
+/* banner section ends here */
+
+
+
+
+
+
+
+
+/* online game funny video starts here */
+
+.online_container{
+    min-height: 500px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.heading_container{
+    text-align: center;
+}
+
+
+
+.card_container{
+    display: flex;
+
+}
+ .card_title .card .img_03{
+    width: 90%;
+    height: auto;
+ }
+
+
+/* online game funny video ends here */
 
