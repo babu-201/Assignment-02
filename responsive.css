@@ -64,6 +64,29 @@
 .banner_bg{
     text-align: center;
 }
+.end{
+    text-align: center;
+}
+.button_container{
+    text-align: center;
+    margin: 20px;
+}
+.right_div-03{
+    width: 100%;
+}
+.left_div-03{
+    width: 100%;
+}
+
+.banner_03-container{
+   flex-direction: column;
+}
+.right_div-03{
+    width: 100%;
+}
+.left_div-03{
+    width: 100%;
+}
 
 }
 
@@ -75,5 +98,5 @@
     .banner_container{
         margin-top: 40px;
     }
-
 }
+
